@@ -1,0 +1,855 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.533873,
+          48.980003
+        ]
+      },
+      "properties": {
+        "subsystem": "MSS-AMMO",
+        "moving_status": "с",
+        "discovery_date": "16.04.2026",
+        "source": "А4218",
+        "name": "мз БП (арт)",
+        "description": "За координатами 48.980003, 39.533873 місце зберігання артилерійського БК, 2 од ВА КамАЗ (тент).",
+        "place": "РОЗКВІТ, Луганська обл.",
+        "MGRS": "37UEQ3906425370",
+        "military_unit": null,
+        "document_path": "D:/FlowParser/flow\\А4218\\2026\\5\\20\\РД УВА\\Розвідувальне зведення УВ.docx",
+        "sidc": 130610000016040069000,
+        "processed_by": "Бойко М.Л.",
+        "created_at": "20.05.2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.570391,
+          44.999414
+        ]
+      },
+      "properties": {
+        "subsystem": "MSS",
+        "moving_status": "с",
+        "discovery_date": "16.04.2026",
+        "source": "А4218",
+        "name": "склад МТЗ",
+        "description": "За координатами 44.999414, 47.570391 склад будматеріалів, протитанкові надовби.",
+        "place": "СЕВЕРНОЕ, республика Калмыкия, рф",
+        "MGRS": "38TQQ0258886099",
+        "military_unit": null,
+        "document_path": "D:/FlowParser/flow\\А4218\\2026\\5\\20\\РД УВА\\Розвідувальне зведення УВ.docx",
+        "sidc": 130620000011200000000,
+        "processed_by": "Бойко М.Л.",
+        "created_at": "20.05.2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.540913,
+          47.543177
+        ]
+      },
+      "properties": {
+        "subsystem": "SST-MED",
+        "moving_status": null,
+        "discovery_date": "16.04.2026",
+        "source": "А4218",
+        "name": "шпиталь",
+        "description": "У будівлі за координатами: 47.543177 43.540913 відмічено шпиталь. Відстань до ЛБЗ 44 км.",
+        "place": "ПОПЕРЕЧНЫЙ, Волгоградская обл., рф",
+        "MGRS": "38TLT9020266559",
+        "military_unit": null,
+        "document_path": "D:/FlowParser/flow\\А4218\\2026\\5\\20\\РД УВА\\Розвідувальне зведення УВ.docx",
+        "sidc": 130620000012070200000,
+        "processed_by": "Бойко М.Л.",
+        "created_at": "20.05.2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.798884,
+          43.100052
+        ]
+      },
+      "properties": {
+        "subsystem": "MSS-MNT",
+        "moving_status": "с",
+        "discovery_date": "16.04.2026",
+        "source": "А4218",
+        "name": "рембаза",
+        "description": "На території господарського підприємства, за координатами:: 43.100052, 44.798884 - яка охороняється підрозділом ЗС рф (приналежність підрозділу та кількість військовослужбовців ЗС рф встановлюється), виявлено підрозділ з ремонту та обслуговування автомобільної та легкоброньованої ВТ. Одночасно на території господарського підприємства перебуває понад 30 од. ВТ.",
+        "place": "КУРТАТ, республика Северная Осетия - Алания, рф",
+        "MGRS": "38TMN8363371945",
+        "military_unit": null,
+        "document_path": "D:/FlowParser/flow\\А4218\\2026\\5\\20\\РД УВА\\Розвідувальне зведення УВ.docx",
+        "sidc": 130610000016110000140,
+        "processed_by": "Бойко М.Л.",
+        "created_at": "20.05.2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.38201,
+          41.564917
+        ]
+      },
+      "properties": {
+        "subsystem": "C4I-C2-GFF",
+        "moving_status": null,
+        "discovery_date": "16.04.2026",
+        "source": "А4218",
+        "name": "рембаза, 7 ВТ",
+        "description": "На території митного поста в ангарі за координатами: 41.564917 42.382010 – майстерня з ремонту ВТ (БТР, БМП, ББМ, ВА). Одночасно на ремонті може перебувати до 7 од. ВТ.",
+        "place": "ЗГИЛ, республика Северная Осетия - Алания, рф",
+        "MGRS": "38TKM8170404781",
+        "military_unit": null,
+        "document_path": "D:/FlowParser/flow\\А4218\\2026\\5\\20\\РД УВА\\Розвідувальне зведення УВ.docx",
+        "sidc": 130610001612110531000,
+        "processed_by": "Бойко М.Л.",
+        "created_at": "20.05.2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.646587,
+          41.160441
+        ]
+      },
+      "properties": {
+        "subsystem": "GFF",
+        "moving_status": null,
+        "discovery_date": "16.04.2026",
+        "source": "А4218",
+        "name": "ВТ, в/с",
+        "description": "На території підприємства (автодор), за координатами: 41.160441 46.646587 – відмічено орієнтовно 15 в/с, 7 од. ВА.",
+        "place": "СЮГУТ, республика Дагестан, рф",
+        "MGRS": "38TPL3814657874",
+        "military_unit": null,
+        "document_path": "D:/FlowParser/flow\\А4218\\2026\\5\\20\\РД УВА\\Розвідувальне зведення УВ.docx",
+        "sidc": 130610000012110069000,
+        "processed_by": "Бойко М.Л.",
+        "created_at": "20.05.2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.583359,
+          45.207561
+        ]
+      },
+      "properties": {
+        "subsystem": "MSS-MNT",
+        "moving_status": "с",
+        "discovery_date": "16.04.2026",
+        "source": "А4218",
+        "name": "рембаза",
+        "description": "На подвір'ї будівельного магазину за координатами: 45.207561 47.583359 –організовано місце для проведення ремонту ВТ та цивільних автомобілів в/с та представників РОА.",
+        "place": "СЕВЕРНОЕ, республика Калмыкия, рф",
+        "MGRS": "38TQR0287109254",
+        "military_unit": null,
+        "document_path": "D:/FlowParser/flow\\А4218\\2026\\5\\20\\РД УВА\\Розвідувальне зведення УВ.docx",
+        "sidc": 130610000016110000140,
+        "processed_by": "Бойко М.Л.",
+        "created_at": "20.05.2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.26136,
+          43.45797
+        ]
+      },
+      "properties": {
+        "subsystem": "MSS-AMMO",
+        "moving_status": "с",
+        "discovery_date": "16.04.2026",
+        "source": "А4218",
+        "name": "мз БП",
+        "description": "До ангару за координатами: 43.45797 47.26136 – відмічено розвантаження ящиків з БП з 2 од. ВА (тент).",
+        "place": "ЛЬВОВСКИЙ № 9, республика Дагестан, рф",
+        "MGRS": "38TPP8294714157",
+        "military_unit": null,
+        "document_path": "D:/FlowParser/flow\\А4218\\2026\\5\\20\\РД УВА\\Розвідувальне зведення УВ.docx",
+        "sidc": 130610000016040069000,
+        "processed_by": "Бойко М.Л.",
+        "created_at": "20.05.2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.919377,
+          42.378902
+        ]
+      },
+      "properties": {
+        "subsystem": "MSS-AMMO",
+        "moving_status": "с",
+        "discovery_date": "16.04.2026",
+        "source": "А4218",
+        "name": "мз БП",
+        "description": "На територію ферми за координатами: 42.378902 41.919377 – відмічено заїзд 2 од. ВА (борт) з великими ящиками (імовірно з БП).",
+        "place": "ДОМБАЙ, Карачаево-Черкеская республика, рф",
+        "MGRS": "37TGG4034595975",
+        "military_unit": null,
+        "document_path": "D:/FlowParser/flow\\А4218\\2026\\5\\20\\РД УВА\\Розвідувальне зведення УВ.docx",
+        "sidc": 130610000016040069000,
+        "processed_by": "Бойко М.Л.",
+        "created_at": "20.05.2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.79738,
+          45.62764
+        ]
+      },
+      "properties": {
+        "subsystem": "SST-MED",
+        "moving_status": null,
+        "discovery_date": "16.04.2026",
+        "source": "А4218",
+        "name": "шпиталь",
+        "description": "До лікарні за координатами: 45.62764 47.79738 – відмічено прибуття 2 од. карет ШМД, 1 од. ВА (тент). Вивантажують поранених і заносять у лікарню.",
+        "place": "ВЫШКА, Астраханская обл., рф",
+        "MGRS": "38TQR1805456483",
+        "military_unit": null,
+        "document_path": "D:/FlowParser/flow\\А4218\\2026\\5\\20\\РД УВА\\Розвідувальне зведення УВ.docx",
+        "sidc": 130620000012070200000,
+        "processed_by": "Бойко М.Л.",
+        "created_at": "20.05.2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.834817,
+          43.694485
+        ]
+      },
+      "properties": {
+        "subsystem": "SST-MED",
+        "moving_status": null,
+        "discovery_date": "16.04.2026",
+        "source": "А4218",
+        "name": "шпиталь",
+        "description": "На території дитячого оздоровчого табору \"Айдар\" за координатами: 43.694485, 47.834817 розгорнуто польовий шпиталь зс рф",
+        "place": "ОСТРОВ ЧЕЧЕНЬ, республика Дагестан, рф",
+        "MGRS": "38TQP2844641846",
+        "military_unit": null,
+        "document_path": "D:/FlowParser/flow\\А4218\\2026\\5\\20\\РД УВА\\Розвідувальне зведення УВ.docx",
+        "sidc": 130620000012070200000,
+        "processed_by": "Бойко М.Л.",
+        "created_at": "20.05.2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.38201,
+          41.564917
+        ]
+      },
+      "properties": {
+        "subsystem": "C4I-C2-GFF",
+        "moving_status": null,
+        "discovery_date": "16.04.2026",
+        "source": null,
+        "name": "рембаза",
+        "description": "На території митного поста в ангарі за координатами: 41.564917 42.382010 -майстерня з ремонту ВТ (БТР, БМП, ББМ, ВА).",
+        "place": "ЗГИЛ, республика Северная Осетия - Алания, рф",
+        "MGRS": "38TKM8170404781",
+        "military_unit": null,
+        "document_path": "D:/FlowParser/flow\\А4218\\2026\\5\\20\\РД УВА\\Без імені.png",
+        "sidc": 130610001612110531000,
+        "processed_by": "Бойко М.Л.",
+        "created_at": "20.05.2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.2780107,
+          42.3262595
+        ]
+      },
+      "properties": {
+        "subsystem": "MSS-MNT",
+        "moving_status": null,
+        "discovery_date": "16.04.2026",
+        "source": null,
+        "name": "рембаза, мз ПММ ВБ",
+        "description": "Одночасно на ремонті можеперебувати до 7 од. ВТ.На території військової бази за координатами: 42.3262595 50.2780107 – не менше14 од. ВА (тент) та до 7 од. паливозаправників. На вказаній території розміщенорезервуари з паливом, які використовуються противником.",
+        "place": "ПРИМОРСКИЙ, республика Дагестан, рф",
+        "MGRS": "39TVG4051286253",
+        "military_unit": "ВБ",
+        "document_path": "D:/FlowParser/flow\\А4218\\2026\\5\\20\\РД УВА\\Без імені.png",
+        "sidc": 130610000016520000140,
+        "processed_by": "Бойко М.Л.",
+        "created_at": "20.05.2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.760746,
+          45.7144184
+        ]
+      },
+      "properties": {
+        "subsystem": "MSS-AMMO",
+        "moving_status": "с",
+        "discovery_date": null,
+        "source": "А4926",
+        "name": "мз БП",
+        "description": "Ангарне приміщення, за координатами: 45.7144184 45.7607460, використовується противником в якості місця зберігання БП.",
+        "place": "МЕКЛЕТА, республика Калмыкия, рф",
+        "MGRS": "38TNR5920862599",
+        "military_unit": null,
+        "document_path": "D:/FlowParser/flow\\А4926\\2026\\5\\20\\РД 24.00 А4926\\РД 24.00 А4926.docx",
+        "sidc": 130610000016040000000,
+        "processed_by": "Бойко М.Л.",
+        "created_at": "20.05.2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.2033779,
+          44.7553277
+        ]
+      },
+      "properties": {
+        "subsystem": "GFF",
+        "moving_status": "р",
+        "discovery_date": null,
+        "source": "А4926",
+        "name": "в/с",
+        "description": "У гаражному кооперативі, у боксі, за координатами: 44.7553277 42.2033779 відмічено місце зберігання ящиків зеленого кольору до 30 од. (габаритами до 22,2 м.). Поряд у боксі, за координатами:42.258766 41.2969536 постійно перебуває до 3 в/с.",
+        "place": "ВЕСЁЛЫЙ, Ставроопольский край, рф",
+        "MGRS": "38TKQ7864659576",
+        "military_unit": null,
+        "document_path": "D:/FlowParser/flow\\А4926\\2026\\5\\20\\РД 24.00 А4926\\РД 24.00 А4926.docx",
+        "sidc": 130610000012110000000,
+        "processed_by": "Бойко М.Л.",
+        "created_at": "20.05.2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.5858734,
+          44.4038005
+        ]
+      },
+      "properties": {
+        "subsystem": "MSS-AMMO",
+        "moving_status": null,
+        "discovery_date": "14.04.2016",
+        "source": "А4926",
+        "name": "склад БП",
+        "description": "За координатами (44.4038005, 43.5858734) станом на 14.04.2016 року, на території консервного заводу, виявлено склад боєприпасів ров.",
+        "place": "ПРИВОЛЬНЫЙ, Ставроопольский край, рф",
+        "MGRS": "38TLQ8739517696",
+        "military_unit": null,
+        "document_path": "D:/FlowParser/flow\\А4926\\2026\\5\\20\\РД 24.00 А4926\\РД 24.00 А4926.docx",
+        "sidc": 130610000016040000000,
+        "processed_by": "Бойко М.Л.",
+        "created_at": "20.05.2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.884848,
+          48.779135
+        ]
+      },
+      "properties": {
+        "subsystem": "MSS-AMMO",
+        "moving_status": null,
+        "discovery_date": null,
+        "source": "А4926",
+        "name": "склад БП",
+        "description": "КОЗАЧІ ЛАГЕРІ (48.779135, 42.884848), в підвальному приміщенні облаштован польовий пункт боєпостачання (склад БК)",
+        "place": "ЛОБАКИН, Волгоградская обл., рф",
+        "MGRS": "38ULV4461405061",
+        "military_unit": null,
+        "document_path": "D:/FlowParser/flow\\А4926\\2026\\5\\20\\РД 24.00 А4926\\РД 24.00 А4926.docx",
+        "sidc": 130610000016040000620,
+        "processed_by": "Бойко М.Л.",
+        "created_at": "20.05.2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.330045,
+          46.529904
+        ]
+      },
+      "properties": {
+        "subsystem": "MSS-AMMO",
+        "moving_status": null,
+        "discovery_date": "01.02.2018",
+        "source": "А4926",
+        "name": "склад МТЗ",
+        "description": "За координатами (46.5299040, 45.3300450) станом на 01.02.2018 року, в складській будівлі (склад зберігання овочів та фруктів)  зафіксовано імовірне місце розташування складу матеріально-технічних засобі",
+        "place": "НИИЦЯН, республика Калмыкия, рф",
+        "MGRS": "38TNS2531152979",
+        "military_unit": null,
+        "document_path": "D:/FlowParser/flow\\А4926\\2026\\5\\20\\РД 24.00 А4926\\РД 24.00 А4926.docx",
+        "sidc": 130620000011200000000,
+        "processed_by": "Бойко М.Л.",
+        "created_at": "20.05.2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.6859116,
+          41.3698848
+        ]
+      },
+      "properties": {
+        "subsystem": "MSS-AMMO",
+        "moving_status": null,
+        "discovery_date": "21.08.2000",
+        "source": "А4926",
+        "name": "склад БП",
+        "description": "За координатами (41.3698848, 42.6859116) станом на 21.08.2000 року, в складській будівлі, вул. Артилеристів (півн. част.) зафіксовано імовірне місце розташування складу боєприпасів ров.",
+        "place": "ЗГИЛ, республика Северная Осетия - Алания, рф",
+        "MGRS": "38TLL0646682402",
+        "military_unit": null,
+        "document_path": "D:/FlowParser/flow\\А4926\\2026\\5\\20\\РД 24.00 А4926\\РД 24.00 А4926.docx",
+        "sidc": 130610000016040000000,
+        "processed_by": "Бойко М.Л.",
+        "created_at": "20.05.2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.7150766,
+          43.2048262
+        ]
+      },
+      "properties": {
+        "subsystem": "MSS-POL",
+        "moving_status": null,
+        "discovery_date": "11.03.2019",
+        "source": "А4926",
+        "name": "мз ПММ",
+        "description": "За координатами (43.2048262, 45.7150766) станом на 11.03.2019 року, в парковій зоні містечка, виявлено 4 од. АТ КамАЗ 5350 паливозаправників ров.",
+        "place": "ЧЕЧЕН-АУЛ, Чеченская республика, рф",
+        "MGRS": "38TNN5809083808",
+        "military_unit": null,
+        "document_path": "D:/FlowParser/flow\\А4926\\2026\\5\\20\\РД 24.00 А4926\\РД 24.00 А4926.docx",
+        "sidc": 130610000016520069000,
+        "processed_by": "Бойко М.Л.",
+        "created_at": "20.05.2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.4085938,
+          44.346992
+        ]
+      },
+      "properties": {
+        "subsystem": "SST-MED",
+        "moving_status": null,
+        "discovery_date": null,
+        "source": "А4926",
+        "name": "шпиталь",
+        "description": "розташування шпиталю противника, о/с (понад 30 в/сл) та ОВТ (2 од. швидкі) на подвір’ї та у будинку (44.3469920, 41.4085938).",
+        "place": "ДОНСКОЙ, Краснодарский край, рф",
+        "MGRS": "37TFK9197913235",
+        "military_unit": null,
+        "document_path": "D:/FlowParser/flow\\А4926\\2026\\5\\20\\РД 24.00 А4926\\РД 24.00 А4926.docx",
+        "sidc": 130620000012070200000,
+        "processed_by": "Бойко М.Л.",
+        "created_at": "20.05.2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.876,
+          42.588
+        ]
+      },
+      "properties": {
+        "subsystem": "C4I-C2-GFF",
+        "moving_status": "с",
+        "discovery_date": null,
+        "source": "А4926",
+        "name": "КП 2  омсбр",
+        "description": "Стаціонарні об’єкти ймовірно, розміщено КП 2 омсбр 42.588, 43.876",
+        "place": "ЗГИЛ, республика Северная Осетия - Алания, рф",
+        "MGRS": "38TMN0777415676",
+        "military_unit": "2  омсбр",
+        "document_path": "D:/FlowParser/flow\\А4926\\2026\\5\\20\\РД 24.00 А4926\\РД 24.00 А4926.docx",
+        "sidc": 130610001811000000000,
+        "processed_by": "Бойко М.Л.",
+        "created_at": "20.05.2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.868,
+          43.344
+        ]
+      },
+      "properties": {
+        "subsystem": "MSS-AMMO",
+        "moving_status": "с",
+        "discovery_date": null,
+        "source": "А4926",
+        "name": "мз БП (арт)",
+        "description": "Стаціонарні об’єкти місце зберігання артилерійського БК, 2 од ВА КамАЗ (тент) 43.344, 41.868.",
+        "place": "ТЕБЕРДА, Карачаево-Черкеская республика, рф",
+        "MGRS": "37TGJ3246303011",
+        "military_unit": null,
+        "document_path": "D:/FlowParser/flow\\А4926\\2026\\5\\20\\РД 24.00 А4926\\РД 24.00 А4926.docx",
+        "sidc": 130610000016040069000,
+        "processed_by": "Бойко М.Л.",
+        "created_at": "20.05.2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.347832,
+          48.121549
+        ]
+      },
+      "properties": {
+        "subsystem": "MSS-AMMO-MSL-SAM",
+        "moving_status": null,
+        "discovery_date": "15.03.2026",
+        "source": "А4926",
+        "name": "мз БП, ЗРК н/т",
+        "description": "У будівлі за координатами: 48.121549 39.347832 місце зберігання БП РОВ. Відмічено зберігання ЗКР до ЗРК “Бук-2, відмічено заряджання ЗКР на СВУ.",
+        "place": "ВЕРБІВКА, Луганська обл.",
+        "MGRS": "37UEP2588529868",
+        "military_unit": null,
+        "document_path": "D:/FlowParser/flow\\А4926\\2026\\5\\20\\РД 13.00 А4926\\РД 13.00 А4926.docx",
+        "sidc": 130610000013010200210,
+        "processed_by": "Бойко М.Л.",
+        "created_at": "20.05.2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.432759,
+          44.185402
+        ]
+      },
+      "properties": {
+        "subsystem": "MSS-AMMO-MSL-SAM",
+        "moving_status": null,
+        "discovery_date": "15.03.2026",
+        "source": "А4926",
+        "name": "мз БП, ЗРК н/т",
+        "description": "У будівлі за координатами: 44.185402 43.432759 місце зберігання БП РОВ. Відмічено зберігання ЗКР до ЗРК «Бук-2», відмічено заряджання ЗКР на СВУ.",
+        "place": "ПОДГОРНАЯ, Ставроопольский край, рф",
+        "MGRS": "38TLP7473993659",
+        "military_unit": null,
+        "document_path": "D:/FlowParser/flow\\А4926\\2026\\5\\20\\РД 13.00 А4926\\РД 13.00 А4926.docx",
+        "sidc": 130610000013010200210,
+        "processed_by": "Бойко М.Л.",
+        "created_at": "20.05.2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.972966,
+          49.542029
+        ]
+      },
+      "properties": {
+        "subsystem": "MSS-AMMO",
+        "moving_status": null,
+        "discovery_date": "15.03.2026",
+        "source": "А4926",
+        "name": "мз БП (арт)",
+        "description": "У ангарі (ангар, 60х10м) за координатами: 49.542029 39.972966 відмічено розміщення БП до артилерійських систем та РСЗВ (ймовірно батальйонного рівня).",
+        "place": "МИКІЛЬСЬКЕ, Луганська обл.",
+        "MGRS": "37UEQ7038988168",
+        "military_unit": null,
+        "document_path": "D:/FlowParser/flow\\А4926\\2026\\5\\20\\РД 13.00 А4926\\РД 13.00 А4926.docx",
+        "sidc": 130610000016040000470,
+        "processed_by": "Бойко М.Л.",
+        "created_at": "20.05.2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.281503,
+          48.378991
+        ]
+      },
+      "properties": {
+        "subsystem": "MSS-AMMO",
+        "moving_status": null,
+        "discovery_date": "15.03.2026",
+        "source": "А4926",
+        "name": "мз БП",
+        "description": "У будівлі за координатами: 48.378991 46.281503 відмічено місце зберігання БП РОВ.",
+        "place": "АХТУБИНСК, Астраханская обл., рф",
+        "MGRS": "38UNU9489159218",
+        "military_unit": null,
+        "document_path": "D:/FlowParser/flow\\А4926\\2026\\5\\20\\РД 13.00 А4926\\РД 13.00 А4926.docx",
+        "sidc": 130610000016040000000,
+        "processed_by": "Бойко М.Л.",
+        "created_at": "20.05.2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.965364,
+          42.138732
+        ]
+      },
+      "properties": {
+        "subsystem": "MSS-AMMO",
+        "moving_status": null,
+        "discovery_date": "15.03.2026",
+        "source": "А4926",
+        "name": "мз БП",
+        "description": "У будівлях за координатами: 42.138732 39.965364 – відмічено місця зберігання БП. Безпечно для населення.",
+        "place": "СИРИУС, Краснодарский край, рф",
+        "MGRS": "37TEG7977565630",
+        "military_unit": null,
+        "document_path": "D:/FlowParser/flow\\А4926\\2026\\5\\20\\РД 13.00 А4926\\РД 13.00 А4926.docx",
+        "sidc": 130610000016040000000,
+        "processed_by": "Бойко М.Л.",
+        "created_at": "20.05.2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.441114,
+          42.909204
+        ]
+      },
+      "properties": {
+        "subsystem": "MSS-AMMO-MSL-SAM",
+        "moving_status": null,
+        "discovery_date": "15.03.2026",
+        "source": "А4926",
+        "name": "мз БП, ЗРК \"Бук-М2\"",
+        "description": "У будівлі за координатами: 42.909204 39.441114 місце зберігання БП РОВ. Відмічено зберігання ЗКР до ЗРК “Бук2, відмічено заряджання ЗКР на СВУ.",
+        "place": "СИРИУС, Краснодарский край, рф",
+        "MGRS": "37TEH3600750826",
+        "military_unit": null,
+        "document_path": "D:/FlowParser/flow\\А4926\\2026\\5\\20\\РД 13.00 А4926\\РД 13.00 А4926.docx",
+        "sidc": 130610000013010200210,
+        "processed_by": "Бойко М.Л.",
+        "created_at": "20.05.2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.69245064075226,
+          48.73357252492051
+        ]
+      },
+      "properties": {
+        "subsystem": "MSS-AMMO",
+        "moving_status": null,
+        "discovery_date": "06.04.2026",
+        "source": "А4926",
+        "name": "мз БП",
+        "description": "У будівлі за координатами: 48.449115 40.700514 06.04.2026 відмічено місце зберігання БП РОВ.",
+        "place": "ПЕРВОМАЙСКИЙ, Ростовская обл., рф",
+        "MGRS": "37UFP2574367616",
+        "military_unit": null,
+        "document_path": "D:/FlowParser/flow\\А4926\\2026\\5\\20\\РД 13.00 А4926\\РД 13.00 А4926.docx",
+        "sidc": 130610000016040000000,
+        "processed_by": "Бойко М.Л.",
+        "created_at": "20.05.2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.326143,
+          46.155435
+        ]
+      },
+      "properties": {
+        "subsystem": "MSS-AMMO",
+        "moving_status": null,
+        "discovery_date": "15.03.2026",
+        "source": "А4926",
+        "name": "мз БП",
+        "description": "У будівлі за координатами: 46.155435 39.326143 відмічено місце зберігання БП РОВ.",
+        "place": "ПЕРВОМАЙСКИЙ, Краснодарский край, рф",
+        "MGRS": "37TEM2518311369",
+        "military_unit": null,
+        "document_path": "D:/FlowParser/flow\\А4926\\2026\\5\\20\\РД 13.00 А4926\\РД 13.00 А4926.docx",
+        "sidc": 130610000016040000000,
+        "processed_by": "Бойко М.Л.",
+        "created_at": "20.05.2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.401036,
+          43.309617
+        ]
+      },
+      "properties": {
+        "subsystem": "C4I-C2-GFF",
+        "moving_status": null,
+        "discovery_date": "15.03.2026",
+        "source": "А4926",
+        "name": "рембаза",
+        "description": "На території сільськогосподарського підприємства, за координатами: 43.309617 45.401036 – розташована ремонтно-технічна база. Відмічено заїзд 1 од. ВА, який буксирує пошкоджену БМП.",
+        "place": "ЗАКАН-ЮРТ, Чеченская республика, рф",
+        "MGRS": "38TNN3252395276",
+        "military_unit": null,
+        "document_path": "D:/FlowParser/flow\\А4926\\2026\\5\\20\\РД 13.00 А4926\\РД 13.00 А4926.docx",
+        "sidc": 130610001612110531000,
+        "processed_by": "Бойко М.Л.",
+        "created_at": "20.05.2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.7462694,
+          44.2704948
+        ]
+      },
+      "properties": {
+        "subsystem": "GFF",
+        "moving_status": null,
+        "discovery_date": "15.03.2026",
+        "source": "А4926",
+        "name": "ВТ",
+        "description": "До будівлі складського призначення на території приватного сільськогосподарського підприємства за координатами: 44.2704948 39.7462694 – відмічено періодичне переміщення ВА (тент). Тип вантажу невідомий.",
+        "place": "ЧЕРНИГОВСКОЕ, Краснодарский край, рф",
+        "MGRS": "37TEK5955902187",
+        "military_unit": null,
+        "document_path": "D:/FlowParser/flow\\А4926\\2026\\5\\20\\РД 13.00 А4926\\РД 13.00 А4926.docx",
+        "sidc": 130615000014000022000,
+        "processed_by": "Бойко М.Л.",
+        "created_at": "20.05.2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.516088,
+          46.95033
+        ]
+      },
+      "properties": {
+        "subsystem": "MSS-AMMO",
+        "moving_status": null,
+        "discovery_date": "15.03.2026",
+        "source": "А4926",
+        "name": "мз БП (арт)",
+        "description": "В ангарах, за координатами: 46.950330 46.516088 та 49.582758 40.456470 відмічено місця зберігання артилерійських БП.",
+        "place": "ХАРБА, республика Калмыкия, рф",
+        "MGRS": "38TPT1536700760",
+        "military_unit": null,
+        "document_path": "D:/FlowParser/flow\\А4926\\2026\\5\\20\\РД 13.00 А4926\\РД 13.00 А4926.docx",
+        "sidc": 130610000016040000000,
+        "processed_by": "Бойко М.Л.",
+        "created_at": "20.05.2026"
+      }
+    }
+  ]
+}
