@@ -1,6 +1,5 @@
 import Map, {
   Layer,
-  Popup,
   Source,
   type MapLayerMouseEvent,
   type MapRef,
@@ -11,17 +10,50 @@ import type { Properties } from "./types/properties";
 
 import { useGeoJson } from "./hooks/useGeoJson";
 import { addSidcImages } from "./utils/addSidcImages";
-
-type PopupInfo = {
-  longitude: number;
-  latitude: number;
-  properties: Properties;
-} | null;
+import { Drawer } from "./components/Drawer";
+import type { FeatureInfo } from "./types/featureInfo";
+import { FeatureDetails } from "./components/FeatureDetails";
 
 function App() {
-  const [popupInfo, setPopupInfo] = useState<PopupInfo>(null);
+  const [selectedFeature, setSelectedFeature] = useState<FeatureInfo | null>(
+    null,
+  );
+  const [imagesLoaded, setImagesLoaded] = useState(false);
   const { geojson } = useGeoJson();
   const mapRef = useRef<MapRef | null>(null);
+
+  const handleMapClick = (e: MapLayerMouseEvent) => {
+    const feature = e.features?.[0];
+
+    if (!feature || feature.geometry.type !== "Point") {
+      setSelectedFeature(null);
+      return;
+    }
+
+    const [longitude, latitude] = feature.geometry.coordinates;
+
+    const newPopup = {
+      longitude,
+      latitude,
+      properties: feature.properties as Properties,
+    };
+    setSelectedFeature(newPopup);
+    mapRef.current?.flyTo({
+      center: [longitude, latitude],
+      zoom: 10,
+    });
+  };
+
+  function handleMapMouseMove(e: MapLayerMouseEvent) {
+    const map = mapRef.current?.getMap();
+
+    if (!map) return;
+    const canvas = map.getCanvas();
+    const cursor = e.features?.length ? "pointer" : "";
+    if (canvas.style.cursor !== cursor) {
+      canvas.style.cursor = cursor;
+    }
+  }
 
   return (
     <>
@@ -34,36 +66,18 @@ function App() {
           zoom: 5,
         }}
         interactiveLayerIds={["points-layer"]}
-        onClick={(e: MapLayerMouseEvent) => {
-          const feature = e.features?.[0];
-          console.log(e.features);
-          if (!feature || feature.geometry.type !== "Point") return;
-
-          const [longitude, latitude] = feature.geometry.coordinates;
-
-          const newPopup = {
-            longitude,
-            latitude,
-            properties: feature.properties as Properties,
-          };
-          setPopupInfo(newPopup);
-          mapRef.current?.flyTo({
-            center: [longitude, latitude],
-            zoom: 10,
-          });
-        }}
-        onLoad={(e) => {
-          console.log("Map loaded");
+        onClick={(e) => handleMapClick(e)}
+        onMouseMove={(e) => handleMapMouseMove(e)}
+        onLoad={async (e) => {
           const map = e.target;
-
           if (!geojson) return;
-
-          addSidcImages(map, geojson);
+          await addSidcImages(map, geojson);
+          setImagesLoaded(true);
         }}
         style={{ width: "100vw", height: "100vh" }}
         mapStyle="https://tiles.openfreemap.org/styles/bright"
       >
-        {geojson && (
+        {geojson && imagesLoaded && (
           <Source id="points" type="geojson" data={geojson}>
             <Layer
               id="points-layer"
@@ -76,29 +90,11 @@ function App() {
             />
           </Source>
         )}
-
-        {popupInfo && (
-          <Popup
-            longitude={popupInfo.longitude}
-            latitude={popupInfo.latitude}
-            anchor="bottom"
-            maxWidth="450px"
-            onClose={() => setPopupInfo(null)}
-          >
-            <div>
-              <b>{popupInfo.properties?.name}</b>
-              <br />
-              <div>{popupInfo.properties?.description}</div>
-              <br />
-              <div>{popupInfo.properties?.place}</div>
-              <br />
-              <div>{popupInfo.properties?.MGRS}</div>
-              <br />
-              <div>{popupInfo.properties?.created_at}</div>
-            </div>
-          </Popup>
-        )}
       </Map>
+
+      <Drawer open={!!selectedFeature} onClose={() => setSelectedFeature(null)}>
+        {selectedFeature && <FeatureDetails feature={selectedFeature} />}
+      </Drawer>
     </>
   );
 }
