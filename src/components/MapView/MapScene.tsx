@@ -55,7 +55,7 @@ export function MapScene({ geojson, imagesLoaded }: Props) {
         type="fill-extrusion"
         minzoom={14}
         paint={{
-          "fill-extrusion-color": "#d0d0d0",
+          "fill-extrusion-color": ["coalesce", ["get", "colour"], "#d0d0d0"],
           "fill-extrusion-height": ["coalesce", ["get", "render_height"], 0],
           "fill-extrusion-base": ["coalesce", ["get", "render_min_height"], 0],
           "fill-extrusion-opacity": 1,

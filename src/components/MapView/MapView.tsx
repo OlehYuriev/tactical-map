@@ -23,7 +23,7 @@ export function MapView({ setSelectedFeature }: Props) {
   const handleMapClick = (e: MapLayerMouseEvent) => {
     const feature = e.features?.[0];
     const map = mapRef.current?.getMap();
-
+    console.log(feature);
     if (!feature || !map) {
       setSelectedFeature(null);
       return;
@@ -84,7 +84,7 @@ export function MapView({ setSelectedFeature }: Props) {
         pitch: 50,
         bearing: -20,
       }}
-      interactiveLayerIds={["points-layer"]}
+      interactiveLayerIds={["points-layer", "3d-buildings"]}
       onClick={handleMapClick}
       onMouseMove={handleMapMouseMove}
       onLoad={handleMapLoad}
