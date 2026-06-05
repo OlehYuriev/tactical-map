@@ -24,7 +24,10 @@ export function MapView({ setSelectedFeature }: Props) {
     const feature = e.features?.[0];
     const map = mapRef.current?.getMap();
 
-    if (!feature || !map) return;
+    if (!feature || !map) {
+      setSelectedFeature(null);
+      return;
+    }
 
     if (feature.geometry.type === "Point") {
       const [longitude, latitude] = feature.geometry.coordinates;
